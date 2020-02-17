@@ -12,8 +12,8 @@ After checking out the project only the settings in the docker .env file and the
 
 ### Setup in .env
 
-**Note: You may uncomment also the ports if you intend to expose these ports on the host system. This example uses the containers default ports that are only exposed on the containers IP address instead of allowing the docker daemon to make the system listening to the mapped ports on all devices.**
-This means that Gitea's ssh port (22) can be used beside an existing ssh service on the host system.
+**Note: You may uncomment the ports if you intend to expose these ports on the host system. This example uses the containers default ports that are only exposed on the containers IP address instead of allowing the docker daemon to make the system listening to the mapped ports on all devices.**
+This means that Gitea's ssh port (22) can be used alongside an existing ssh service on the host system.
 Simply follow the comments and self-explaining values in the .env file.
 
 ### Setup in setup/create_mysql.sql
