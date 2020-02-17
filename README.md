@@ -3,12 +3,12 @@ Gitea-Drone http server setup with docker-compose
 
 ## Introduction
 
-This little project provides a docker-compose.yml and configuration files for a minimum setup of a Gitea/Drone server.
+This simple project provides a docker-compose.yml and configuration files for a minimum setup of a Gitea/Drone server.
 It is set up for use in a VPN which also means that SSL configuration for HTTPS connection is not (yet) added, but it can be done easily.
 
 ## Setup
 
-After checking out the project only the settings in the docker .env file and the two passwords in setup/create_mysql.sql have to be adapted, but the setup will also work with these default passwords.
+After checking out the project only the settings in the docker .env file and the two passwords in setup/create_mysql.sql have to be adjusted, but the setup will also work with these default passwords.
 
 ### Setup in .env
 
