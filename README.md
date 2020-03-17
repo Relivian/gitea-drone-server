@@ -16,10 +16,6 @@ After checking out the project only the settings in the docker .env file and the
 This means that Gitea's ssh port (22) can be used alongside an existing ssh service on the host system.
 Simply follow the comments and self-explaining values in the .env file.
 
-### Setup in setup/create_mysql.sql
-
-Just make sure that changed password match the according ones in .env
-
 ### Setup in docker-compose.yml
 
 Actually here is nothing to do except you want to make changes to the installation for own reasons. 
